@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/menu_item_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+        <item android:id="@+id/menu_item_charge"
+            android:icon="@drawable/ic_baseline_electric_car_24"
+            android:title="Charge"/>
+
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+
+        <item android:title="Authentication">
+
+            <menu>
+
+                <item android:id="@+id/authentication_menu_item_login"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="login"/>
+
+                <item android:id="@+id/authentication_menu_item_logout"
+                    android:icon="@drawable/ic_baseline_close_24"
+                    android:title="logout"/>
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+</menu>
